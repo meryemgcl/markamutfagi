@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Sayfa-1" id="lWMgRotH181AsseP50Gu">
+    <mxGraphModel dx="1030" dy="1696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q3je1JdvfRST7r4jJkgA-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" value="BAŞLANGIÇ:&#xa;Gönüllü Başvuru Formu dolduruldu" vertex="1">
+          <mxGeometry height="60" width="160" x="280" y="-1050" as="geometry" />
+        </mxCell>
+        <mxCell id="q3je1JdvfRST7r4jJkgA-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Başvuru Bilgileri&#xa;Google Form&#39;a Düşer" vertex="1">
+          <mxGeometry height="60" width="160" x="280" y="-950" as="geometry" />
+        </mxCell>
+        <mxCell id="q3je1JdvfRST7r4jJkgA-3" edge="1" parent="1" source="q3je1JdvfRST7r4jJkgA-1" target="q3je1JdvfRST7r4jJkgA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q3je1JdvfRST7r4jJkgA-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" value="[DARBOĞAZ 1]&#xa;Bir yetkilinin manuel olarak&#xa;verileri Excel&#39;e işlemesi" vertex="1">
+          <mxGeometry height="70" width="160" x="280" y="-850" as="geometry" />
+        </mxCell>
+        <mxCell id="q3je1JdvfRST7r4jJkgA-5" edge="1" parent="1" source="q3je1JdvfRST7r4jJkgA-2" target="q3je1JdvfRST7r4jJkgA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q3je1JdvfRST7r4jJkgA-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Başvuru&#xa;Eksiksiz ve&#xa;Uygun mu?" vertex="1">
+          <mxGeometry height="110" width="140" x="290" y="-740" as="geometry" />
+        </mxCell>
+        <mxCell id="q3je1JdvfRST7r4jJkgA-7" edge="1" parent="1" source="q3je1JdvfRST7r4jJkgA-4" target="q3je1JdvfRST7r4jJkgA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q3je1JdvfRST7r4jJkgA-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="[DARBOĞAZ 2]&#xa;Eksik Bilgi Maili Atılması&#xa;ve Yanıt Beklenmesi" vertex="1">
+          <mxGeometry height="70" width="160" x="500" y="-720" as="geometry" />
+        </mxCell>
+        <mxCell id="q3je1JdvfRST7r4jJkgA-9" edge="1" parent="1" source="q3je1JdvfRST7r4jJkgA-6" target="q3je1JdvfRST7r4jJkgA-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="-685" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q3je1JdvfRST7r4jJkgA-10" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="HAYIR (Else)" vertex="1">
+          <mxGeometry height="30" width="80" x="425" y="-710" as="geometry" />
+        </mxCell>
+        <mxCell id="q3je1JdvfRST7r4jJkgA-11" edge="1" parent="1" source="q3je1JdvfRST7r4jJkgA-8" target="q3je1JdvfRST7r4jJkgA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q3je1JdvfRST7r4jJkgA-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="[DARBOĞAZ 3]&#xa;Değerlendirme Sonucu&#xa;Manuel E-posta Gönderimi" vertex="1">
+          <mxGeometry height="60" width="160" x="280" y="-590" as="geometry" />
+        </mxCell>
+        <mxCell id="q3je1JdvfRST7r4jJkgA-13" edge="1" parent="1" source="q3je1JdvfRST7r4jJkgA-6" target="q3je1JdvfRST7r4jJkgA-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q3je1JdvfRST7r4jJkgA-14" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="EVET (Then)" vertex="1">
+          <mxGeometry height="30" width="80" x="330" y="-630" as="geometry" />
+        </mxCell>
+        <mxCell id="q3je1JdvfRST7r4jJkgA-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Gönüllünün Maili Görmesi&#xa;ve İlk Görevi Bekleme Süreci&#xa;(Ort. 2 Hafta Kayıp)" vertex="1">
+          <mxGeometry height="70" width="160" x="280" y="-490" as="geometry" />
+        </mxCell>
+        <mxCell id="q3je1JdvfRST7r4jJkgA-16" edge="1" parent="1" source="q3je1JdvfRST7r4jJkgA-12" target="q3je1JdvfRST7r4jJkgA-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q3je1JdvfRST7r4jJkgA-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#b85450;fontStyle=1" value="BİTİŞ:&#xa;İlk Görevin Teslim Alınması" vertex="1">
+          <mxGeometry height="60" width="160" x="280" y="-380" as="geometry" />
+        </mxCell>
+        <mxCell id="q3je1JdvfRST7r4jJkgA-18" edge="1" parent="1" source="q3je1JdvfRST7r4jJkgA-15" target="q3je1JdvfRST7r4jJkgA-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
