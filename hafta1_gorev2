@@ -1,0 +1,28 @@
+BAŞLA: Pazarlama Maratonu Kayıt Akışı [cite: 56]
+
+ADIM 1: Kayıt formundan bilgileri çek (Ad, Soyad, E-posta, Telefon) [cite: 57]
+
+ADIM 2: Girdilerin doğruluğunu kontrol et [cite: 58]
+    - EĞER e-posta adresi "@" içermiyorsa VEYA telefon numarası eksik/hatalıysa: [cite: 59]
+        * Ekranda "Lütfen bilgilerinizi kontrol edip tekrar deneyin." uyarısını göster [cite: 59]
+        * Süreci burada KES ve formu yeniden göndermesini bekle (Arka planda SMS tetiklenmesini engelle) [cite: 46, 59]
+    - DEĞİLSE: (Bilgiler doğruysa) ADIM 3'e ilerle [cite: 60]
+
+ADIM 3: Veritabanı karmaşasını temizle ve tekil kayıt yap [cite: 50, 60]
+    - Google Sheets ve eski CRM bağlantılarını tamamen devredışı bırak (Mükerrer veri kirliliğini engellemek için) [cite: 47, 50]
+    - Gelen kullanıcı bilgilerini SADECE tek bir ana veritabanına (Notion) "Beklemede" statüsüyle kaydet [cite: 60]
+
+ADIM 4: İlk bilgilendirme ve doğrulama adımını tetikle
+    - Aynı anda giden 3 e-postayı ve doğrudan atılan SMS'i iptal et [cite: 45]
+    - Kullanıcıya sadece içinde "Hesabını Doğrula" linki olan TEK BİR e-posta gönder
+
+ADIM 5: Onay durumuna göre aksiyon al (Slack ve Bilgilendirme Kuralları)
+    - EĞER Kullanıcı gelen maildeki doğrulama linkine tıkladıysa:
+        * Notion üzerindeki durumunu "Kayıt Onaylandı" olarak güncelle
+        * Kullanıcıya otomatik olarak Slack katılım linkini içeren onay mailini gönder [cite: 48, 53]
+        * Kullanıcının telefonuna "Pazarlama Maratonu kaydınız başarıyla tamamlandı!" şeklinde tek bir SMS gönder
+    - DEĞİLSE: (Kullanıcı linke tıklamadıysa)
+        * Kullanıcıyı kesinlikle Slack kanalına dahil etme [cite: 48]
+        * Sistemde "Onay Bekliyor" olarak tut, 24 saat sonra hatırlatma maili listesine al
+
+BİTİŞ: Pazarlama Maratonu Kayıt Süreci [cite: 56]
